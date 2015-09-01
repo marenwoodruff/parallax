@@ -1,0 +1,64 @@
+#welcome { 
+	background: url(images/dirty-hands-flower.jpg) no-repeat fixed; 
+	background-size: cover;
+	min-height: 1000px;
+	height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1600px; 
+  position: relative; 
+}
+
+#welcome article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 200px; 
+  width: 50%; 
+  color: #ff8e7b;
+  font-size: 4em;
+}
+ 
+#to-geoconnect { 
+	background: url(images/hands-in-rain.jpg) no-repeat; 
+	background-size: cover;
+	min-height: 1000px;
+	height: auto; 
+	overflow: hidden;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1600px; 
+  position: relative; 
+}
+
+#to-geoconnect article {
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 700px;
+	width: 65%;
+	color: #4c2a24;
+	font-size: 4em;
+}
+
+#sign-in {
+	background: url(images/hands1.jpg) 0 100% no-repeat; 
+	background-size: cover;
+	min-height: 800px;
+	height: auto; 
+	overflow: hidden;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1600px; 
+  position: relative; 
+}
+
+#sign-in article {
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 625px;
+	width: 51%;
+	color: #ffddd7;
+	font-size: 4em;
+}

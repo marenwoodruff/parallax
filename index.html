@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section id="welcome" data-type="background" data-speed="10">
+		<article>Welcome</article>                            
+	</section>   
+	     
+	<section id="to-geoconnect" data-type="background" data-speed="10">
+		<article>to Geoconnect</article>
+	</section>
+
+	<section id="sign-in" data-type="background" data-speed="10">
+		<article>Sign in</article>
+	</section>
+
+	<script type="javascript">
+		$(document).ready(function(){
+			$('section[data-type="background"]').each(function(){
+				var $bgobj = $(this);
+				$(window).scroll(function(){
+					var yPos = -($window.scrollTop() / $bgobj.data('speed') )
+
+					var coords = '50% ' + yPos + 'px';
+
+					$bgobj.css({ backgroundPosition: coords });
+				})
+			})
+		})
+	</script>
+</body>
+</html>
